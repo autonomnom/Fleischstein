@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Opapa</title>
+  </head>
+  <body style="text-align: center; background: ##231F20">
+    <canvas id="unity-canvas" style="display: table; width: 100%; height: 100%; background: #231F20"></canvas>
+    <script src="Builds/Build/0.11.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Builds/Build/0.11.data.gz",
+        frameworkUrl: "Builds/Build/0.11.framework.js.gz",
+        codeUrl: "Builds/Build/0.11.wasm.gz",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "C7EOPATRA",
+        productName: "Opapa",
+        productVersion: "1",
+      });
+    </script>
+  </body>
+</html>
