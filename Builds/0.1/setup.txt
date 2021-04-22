@@ -1,0 +1,5 @@
+cd C:\Users\chris\3D Objects\Projektstipendium\streamingagainstpatriarchy\Builds\0.1
+
+twistd -no web --path=.
+
+(im browser) http://localhost:8080/
