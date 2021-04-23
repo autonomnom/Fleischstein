@@ -1,0 +1,3 @@
+copy the desired build out of builds into the Nazivaeter folder
+and change the index file redirections to Builds/Build/..
+to make it accessible via https://autonomnom.github.io/Fleischstein/

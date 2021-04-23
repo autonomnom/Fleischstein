@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Bunker Fleischstein</title>
+  </head>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" style="width: 960px; height: 600px; background: #231F20"></canvas>
+    <script src="Build/0.3.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/0.3.data.gz",
+        frameworkUrl: "Build/0.3.framework.js.gz",
+        codeUrl: "Build/0.3.wasm.gz",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "C7EOPATRA",
+        productName: "Bunker Fleischstein",
+        productVersion: "0.3",
+      });
+    </script>
+  </body>
+</html>
